@@ -1,0 +1,10 @@
+.feedback {
+  background-image: url("../img/form-background.webp");
+  background-repeat: no-repeat;
+  width: 1920px;
+  min-height: 840px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/form-background@2x.webp");
+  }
+}

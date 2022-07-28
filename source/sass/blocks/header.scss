@@ -1,0 +1,28 @@
+.header {
+  background-image: url("../img/header-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 880px;
+  background-color: $default-black;
+  color: $default-white;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/header-background@2x.webp");
+  }
+}
+
+.header a {
+  color: $default-white;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-between;
+  max-width: 1160px;
+}
