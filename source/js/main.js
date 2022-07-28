@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', () => {
 // выносим все в дата атрибуты
 // url до иконок пинов карты, настройки автопрокрутки слайдера, url к json и т.д.
 
-// для адаптивного JS используейтся matchMedia и addListener
+// для адаптивного JS используется matchMedia и addListener
 // const breakpoint = window.matchMedia(`(min-width:1024px)`);
 // const breakpointChecker = () => {
 //   if (breakpoint.matches) {
@@ -44,3 +44,51 @@ window.addEventListener('DOMContentLoaded', () => {
 // breakpointChecker();
 
 // используйте .closest(el)
+
+let navMain = document.querySelector('.main-navigation');
+let navToggle = document.querySelector('.main-navigation__toggle');
+let body = document.querySelector('.page__body');
+let overlay = document.querySelector('.overlay');
+
+navMain.classList.remove('main-navigation--nojs');
+
+const closeMenu = () => {
+  navMain.classList.remove('main-navigation--is-open');
+  navMain.classList.add('main-navigation--is-close');
+  body.style.overflowY = 'unset';
+  overlay.style.display = "none";
+};
+
+const openMenu = () => {
+  navMain.classList.add('main-navigation--is-open');
+  navMain.classList.remove('main-navigation--is-close');
+  body.style.overflowY = 'hidden';
+  overlay.style.display = "block";
+};
+
+navToggle.addEventListener('click', function() {
+  if (navMain.classList.contains('main-navigation--is-open')) {
+    closeMenu();
+  } else {
+    openMenu();
+  }
+});
+
+overlay.addEventListener ('click', function() {
+  closeMenu();
+});
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault()
+    const blockID = anchor.getAttribute('href').substr(1)
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+    closeMenu();
+  })
+}
+

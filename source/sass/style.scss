@@ -9,7 +9,6 @@
 // ---------------------------------
 
 @import "variables";
-@import "mixins";
 @import "global/fonts";
 @import "global/reboot";
 @import "global/utils";
@@ -20,6 +19,7 @@
 
 @import "blocks/btn";
 @import "blocks/modal";
+@import "blocks/page";
 
 // ---------------------------------
 
@@ -30,7 +30,7 @@
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
   &:focus {
-    color: $color-default-white;
+    color: $default-white;
   }
 } */
 
