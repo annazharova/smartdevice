@@ -12,11 +12,7 @@
   }
 }
 
-.header a {
-  color: $default-white;
-}
-
-.header ul {
+.header__list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -25,4 +21,26 @@
   padding-top: 30px;
   justify-content: space-between;
   max-width: 1160px;
+}
+
+.header__item a {
+  color: $default-white;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.header__item .btn {
+  font-family: 'Roboto Condensed', 'Courier', monospace;
+  width: 160px;
+  height: 40px;
+  border: 1px solid $default-white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 10px 15px;
 }

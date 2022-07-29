@@ -1,6 +1,13 @@
 .goods {
   background-color: $default-black;
   color: $default-white;
+  margin-top: 100px;
+  padding-bottom: 140px;
+}
+
+.goods h2 {
+  padding-top: 70px;
+  margin-bottom: 50px;
 }
 
 .goods__list {
@@ -15,11 +22,17 @@
 
 .goods__item a {
   color: $default-white;
+  padding: 40px 50px;
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.goods__item:first-child {
+.goods__item:first-child a {
   background-image: url("../img/card-background-1.webp");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 350px;
   min-height: 650px;
 
@@ -28,9 +41,10 @@
   }
 }
 
-.goods__item:nth-child(2) {
+.goods__item:nth-child(2) a {
   background-image: url("../img/card-background-2.webp");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 350px;
   min-height: 650px;
 
@@ -39,13 +53,25 @@
   }
 }
 
-.goods__item:last-child {
+.goods__item:last-child a {
   background-image: url("../img/card-background-3.webp");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 350px;
   min-height: 650px;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/card-background-3@2x.webp");
   }
+}
+
+.goods__square {
+  width: 60px;
+  height: 60px;
+  background-color: $base-blue;
+  margin-top: -60px;
+  margin-left: auto;
+  background-image: url("../img/svg/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -1,0 +1,19 @@
+.footer-navigation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 160px;
+  column-gap: 30px;
+}
+
+.footer-navigation__item {
+  margin-bottom: 10px;
+  width: 220px;
+}
+
+.footer-navigation__item a {
+  color: $default-white;
+}

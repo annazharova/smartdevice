@@ -1,20 +1,22 @@
 .page {
-  font-family: "PT Mono", "Courier", monospace;
+  font-family: "PT Mono", 'Courier', monospace;
+  background-color: #e5e5e5;
 }
 
 .page h1 {
-  font-family: "Roboto Condensed", "Courier", monospace;
+  font-family: 'Roboto Condensed', 'Courier', monospace;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 80px;
   line-height: 94px;
   letter-spacing: 0.07em;
-  margin-top: -250px;
+  margin-top: -590px;
+  margin-bottom: 0;
   color: $default-white;
 }
 
 .page h2 {
-  font-family: 'Roboto Condensed', "Courier", monospace;
+  font-family: 'Roboto Condensed', 'Courier', monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
