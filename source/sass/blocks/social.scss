@@ -12,10 +12,19 @@
   padding-left: 10px;
 }
 
-.social__item {
-  padding: 12px;
+.social__img {
+  fill:  $default-white;
 }
 
 .social__link {
   display: flex;
+  padding: 12px;
+
+  &:hover .social__img,
+  &:focus .social__img {
+    fill: $default-hover;
+  }
+  &:active .social__img {
+    fill: $default-active;
+  }
 }

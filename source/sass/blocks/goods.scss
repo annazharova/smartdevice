@@ -22,11 +22,16 @@
 
 .goods__item a {
   color: $default-white;
-  padding: 40px 50px;
   display: flex;
+  flex-direction: column;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+}
+
+.goods__item span {
+  padding: 40px 50px;
+  width: 300px;
 }
 
 .goods__item:first-child a {
@@ -69,9 +74,17 @@
   width: 60px;
   height: 60px;
   background-color: $base-blue;
-  margin-top: -60px;
+  margin-top: auto;
   margin-left: auto;
   background-image: url("../img/svg/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
+  }
 }

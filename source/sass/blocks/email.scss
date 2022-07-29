@@ -1,0 +1,16 @@
+.email {
+  background-image: url("../img/svg/mail.svg");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+.email a {
+  padding: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
+  }
+}

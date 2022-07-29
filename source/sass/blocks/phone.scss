@@ -1,0 +1,17 @@
+.phone {
+  background-image: url("../img/svg/phone.svg");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+.phone a {
+  padding: 10px;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
+  }
+}

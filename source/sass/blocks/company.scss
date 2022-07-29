@@ -20,4 +20,13 @@
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
+  }
 }

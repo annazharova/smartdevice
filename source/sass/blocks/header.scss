@@ -43,4 +43,12 @@
   text-align: center;
   letter-spacing: 0.05em;
   padding: 10px 15px;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
+  }
 }
