@@ -59,10 +59,12 @@
   &__content {
     position: relative;
 
-    width: 600px;
+    width: 500px;
+    height: 610px;
     padding: 40px;
 
-    background-color: $default-white;
+    background-color: $base-blue;
+    color: $default-white;
 
     // @include vp-767 {
     //   width: 100%;
@@ -115,5 +117,82 @@
     opacity: 1;
 
     pointer-events: auto;
+  }
+}
+
+.modal form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
+.modal input {
+  width: 100%;
+  height: 50px;
+  background: #04142726;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  padding: 15px;
+}
+
+.modal input[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  width: fit-content;
+}
+
+.modal textarea {
+  min-height: 155px;
+  width: 100%;
+  color: white;
+  background: #04142726;
+  border-radius: 3px;
+  border: none;
+  padding: 15px;
+}
+
+.modal input::placeholder,
+.modal textarea::placeholder {
+  color: white;
+  font-family: 'PT Mono', 'Courier', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.modal label > span {
+  color: white;
+  // font-weight: 400;
+  // font-size: 10px;
+  // line-height: 130%;
+  // margin-top: -5px;
+  // width: 175px;
+}
+
+.modal .btn {
+  width: 100%;
+  height: 45px;
+  color: white;
+  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #041427;
+  border-radius: 3px;
+
+  &:hover,
+  &:focus {
+    background-color: $default-hover;
+  }
+  &:active {
+    background-color: $default-active;
   }
 }

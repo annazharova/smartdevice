@@ -225,16 +225,36 @@
       <div class="modal__wrapper">
         <div class="modal__overlay" data-close-modal></div>
         <div class="modal__content">
-          <p class="modal__description">Обычная модалка</p>
+          <h2>Закажите звонок</h2>
+          <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+          <form action="https://echo.htmlacademy.ru/courses" method="post">
+            <label>
+              <span class="visually-hidden">Введите имя</span>
+              <input type="text" name="name" id="name" placeholder="Имя" required>
+            </label>
+            <label>
+              <span class="visually-hidden">Введите телефон</span>
+              <input type="tel" name="phone" id="phone" pattern="[0-9]{11}" placeholder="Телефон" required>
+            </label>
+            <label class="textarea">
+              <span class="visually-hidden">Введите ваш вопрос</span>
+              <textarea name="question" id="question" placeholder="Ваш вопрос"></textarea>
+            </label>
+            <label class="custom-checkbox">
+              <input type="checkbox" name="agree" checked required>
+              <span>Я согласен на&nbsp;обработку персональных данных</span>
+            </label>
+            <input class="btn" type="submit" value="Отправить">
+          </form>
           <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть окно" data-close-modal>
             <svg width="15" height="15">
-              <use xlink:href="img/sprite_auto.svg#icon-close"></use>
+              <use xlink:href="img/sprite_auto.svg#close"></use>
             </svg>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
   </body>
 </html>
