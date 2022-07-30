@@ -9,6 +9,11 @@
   column-gap: 30px;
   column-gap: 30px;
   margin-left: -5px;
+
+
+  @media (max-width: $vp-tablet) {
+    height: 100%;
+  }
 }
 
 .footer-navigation__item {

@@ -1,4 +1,10 @@
-.social {}
+.social {
+  @media (max-width: $vp-tablet) {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .social__list {
   list-style: none;
@@ -7,7 +13,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 150px;
-  gap: 1px;
   padding-left: 10px;
 }
 
@@ -17,7 +22,7 @@
 
 .social__link {
   display: flex;
-  padding: 12px;
+  padding: 10px;
 
   &:hover .social__img,
   &:focus .social__img {

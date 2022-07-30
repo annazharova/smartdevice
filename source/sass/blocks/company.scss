@@ -4,6 +4,21 @@
   min-height: 320px;
   padding-left: 250px;
   margin-top: 120px;
+
+  @media (max-width: $vp-tablet) {
+    margin-top: 80px;
+    padding-left: 180px;
+  }
+}
+
+.company h2 {
+  margin-bottom: 0;
+}
+
+.company p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 15px;
 }
 
 .company summary {

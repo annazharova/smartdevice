@@ -1,5 +1,9 @@
 .advantages {
   margin-top: 400px;
+
+  @media (max-width: $vp-tablet) {
+    margin-top: 285px;
+  }
 }
 
 .advantages__list {
@@ -16,7 +20,7 @@
 }
 
 .advantages__item {
-  width: 595px;
+  max-width: 595px;
   min-height: 300px;
   border: 1px solid $base-grey;
   border-left: 5px solid $base-blue;
@@ -37,6 +41,12 @@
   &:focus .advantages__img {
     fill: $default-white;
   }
+
+  @media (max-width: $vp-tablet) {
+    width: 100%;
+    min-height: 360px;
+    padding: 40px 30px 35px 45px;
+  }
 }
 
 .advantages__item h3 {
@@ -55,5 +65,6 @@
   font-size: 16px;
   line-height: 135%;
   margin-top: 15px;
+  margin-bottom: 0;
 }
 

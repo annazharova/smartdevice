@@ -10,6 +10,15 @@
   @media (min-resolution: 2dppx) {
     background-image: url("../img/header-background@2x.webp");
   }
+
+  @media (max-width: $vp-tablet) {
+    background-image: url("../img/header-background-tablet.webp");
+    min-height: 640px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/header-background-tablet@2x.webp");
+    }
+  }
 }
 
 .header__list {
@@ -21,6 +30,12 @@
   padding-top: 30px;
   justify-content: space-between;
   max-width: 1160px;
+
+  @media (max-width: $vp-tablet) {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 40px 40px;
+  }
 }
 
 .header__item a {
@@ -50,5 +65,9 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-tablet) {
+    display: none;
   }
 }

@@ -1,10 +1,16 @@
 .email {
+  @media (max-width: $vp-tablet) {
+    margin: 0;
+  }
+}
+
+.email a {
   background-image: url("../img/svg/mail.svg");
   background-repeat: no-repeat;
-  padding-left: 25px;
-}
-.email a {
+  background-position-y: center;
+  background-position-x: 0px;
   padding: 10px;
+  padding-left: 40px;
 
   &:hover,
   &:focus {
@@ -12,5 +18,19 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-tablet) {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-position-x: center;
+  }
+}
+
+.email span {
+  @media (max-width: $vp-tablet) {
+    display: none;
   }
 }

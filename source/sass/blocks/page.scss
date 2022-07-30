@@ -13,6 +13,12 @@
   margin-top: -590px;
   margin-bottom: 0;
   color: $default-white;
+
+  @media (max-width: $vp-tablet) {
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: -450px;
+  }
 }
 
 .page h2 {

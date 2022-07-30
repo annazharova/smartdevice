@@ -3,11 +3,20 @@
   color: $default-white;
   padding-top: 50px;
   padding-bottom: 55px;
+
+  @media (max-width: $vp-tablet) {
+    padding-bottom: 65px;
+  }
 }
 
 .footer__wrapper {
   display: grid;
   grid-template-columns: 1fr 470px 345px;
+
+  @media (max-width: $vp-tablet) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
 }
 
 .footer__logo {
