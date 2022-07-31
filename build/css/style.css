@@ -877,6 +877,17 @@ button,
   color: #f2f5f7;
 }
 
+.header__wrapper {
+  background-image: url("../img/top-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  width: 100%;
+  min-height: 120px;
+  z-index: 9;
+}
+
 .header__list {
   list-style: none;
   padding: 0;
@@ -907,6 +918,7 @@ button,
   min-width: 160px;
   min-height: 40px;
   border: 1px solid #f2f5f7;
+  background-color: transparent;
   border-radius: 3px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1449,6 +1461,9 @@ button,
   column-gap: 30px;
   column-gap: 30px;
   margin-left: -5px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 .footer-navigation__item {
@@ -1613,6 +1628,10 @@ button,
   .header {
     background-image: url("../img/header-background-tablet.webp");
     min-height: 640px;
+  }
+
+  .header__wrapper {
+    position: unset;
   }
 
   .header__list {

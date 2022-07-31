@@ -30,6 +30,21 @@
   }
 }
 
+.header__wrapper {
+  background-image: url("../img/top-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  width: 100%;
+  min-height: 120px;
+  z-index: 9;
+
+  @media (max-width: $vp-tablet) {
+    position: unset;
+  }
+}
+
 .header__img {
   @media (max-width: $vp-mobile) {
     width: 35px;
@@ -72,6 +87,7 @@
   min-width: 160px;
   min-height: 40px;
   border: 1px solid $default-white;
+  background-color: transparent;
   border-radius: 3px;
   box-sizing: border-box;
   text-transform: uppercase;
