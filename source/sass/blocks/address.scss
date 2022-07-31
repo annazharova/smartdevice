@@ -1,3 +1,13 @@
+.address {
+  @media (max-width: $vp-mobile) {
+    &::after {
+    border-bottom: 1px solid #f8fdffb3;
+    margin-left: -25px;
+    margin-right: -25px;
+    }
+  }
+}
+
 .address a {
   color: #ffffffb3;
   padding: 5px;

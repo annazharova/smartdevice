@@ -9,6 +9,12 @@
     margin-top: 80px;
     padding-left: 180px;
   }
+
+  @media (max-width: $vp-mobile) {
+    margin-top: 50px;
+    padding-left: 0;
+    background-image: none;
+  }
 }
 
 .company h2 {
@@ -24,7 +30,8 @@
 .company summary {
   border: 1px solid $base-blue;
   border-radius: 3px;
-  width: 180px;
+  min-width: 180px;
+  width: fit-content;
   height: 45px;
   display: flex;
   align-items: center;
@@ -43,5 +50,10 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-mobile) {
+    min-width: 160px;
+    height: 35px;
   }
 }

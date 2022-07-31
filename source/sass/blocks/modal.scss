@@ -39,10 +39,6 @@
     width: 100%;
     min-height: 100%;
     padding: 60px 40px;
-
-    // @include vp-767 {
-    //   padding: 60px 16px;
-    // }
   }
 
   &__overlay {
@@ -59,17 +55,12 @@
   &__content {
     position: relative;
 
-    width: 500px;
-    height: 610px;
+    min-width: 500px;
+    min-height: 610px;
     padding: 40px;
 
     background-color: $base-blue;
     color: $default-white;
-
-    // @include vp-767 {
-    //   width: 100%;
-    //   padding: 20px;
-    // }
   }
 
   &__close-btn {
@@ -96,10 +87,6 @@
   &--fit-content {
     .modal__content {
       width: auto;
-
-      // @include vp-767 {
-      //   width: 100%;
-      // }
     }
   }
 

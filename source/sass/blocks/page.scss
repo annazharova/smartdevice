@@ -19,6 +19,12 @@
     line-height: 75px;
     margin-top: -450px;
   }
+
+  @media (max-width: $vp-mobile) {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: -400px;
+  }
 }
 
 .page h2 {

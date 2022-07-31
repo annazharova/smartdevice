@@ -17,6 +17,10 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
   }
+
+  @media (max-width: $vp-mobile) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer__logo {

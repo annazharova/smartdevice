@@ -17,6 +17,10 @@
   @media (max-width: $vp-tablet) {
     padding-top: 60px;
   }
+
+  @media (max-width: $vp-mobile) {
+    font-size: 28px;
+  }
 }
 
 .goods__list {
@@ -26,7 +30,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 85px;
+  justify-content: space-around;
+  gap: 85px;
 
   @media (max-width: $vp-tablet) {
     grid-template-columns: 1fr;
@@ -43,23 +48,35 @@
   line-height: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 650px;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 650px;
 
   @media (max-width: $vp-tablet) {
-    width: 670px;
-    height: 250px;
+    min-height: 250px;
+  }
+
+  @media (max-width: $vp-mobile) {
+    min-height: 250px;
   }
 }
 
 .goods__item span {
   padding: 40px 50px;
-  width: 300px;
+  max-width: min-content;
   color: #ffffff;
+
+  @media (max-width: $vp-mobile) {
+    font-family: 'Roboto Condensed', 'Courier', monospace;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 30px 135px 30px 30px;
+  }
 }
 
 .goods__item:first-child a {
   background-image: url("../img/card-background-1.webp");
+  width: fit-content;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/card-background-1@2x.webp");
@@ -84,6 +101,7 @@
 
 .goods__item:nth-child(2) a {
   background-image: url("../img/card-background-2.webp");
+  width: fit-content;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/card-background-2@2x.webp");
@@ -108,6 +126,7 @@
 
 .goods__item:last-child a {
   background-image: url("../img/card-background-3.webp");
+  width: fit-content;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/card-background-3@2x.webp");
@@ -146,5 +165,10 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-mobile) {
+    width: 40px;
+    height: 40px;
   }
 }

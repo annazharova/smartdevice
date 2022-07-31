@@ -7,6 +7,8 @@
   padding-top: 170px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 25px;
+  padding-right: 25px;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/form-background@2x.webp");
@@ -17,7 +19,11 @@
     background-color: $base-blue;
     grid-template-columns: 1fr;
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 125px;
+  }
+
+  @media (max-width: $vp-tablet) {
+    padding-bottom: 90px;
   }
 }
 
@@ -27,6 +33,11 @@
   font-size: 36px;
   line-height: 51px;
   margin: 0;
+
+  @media (max-width: $vp-mobile) {
+    font-size: 30px;
+    line-height: 140.62%;
+  }
 }
 
 .feedback p {
@@ -47,15 +58,22 @@
 
 .feedback__wrapper form {
   color: $default-white;
-  width: 580px;
-  height: 225px;
+  min-width: 580px;
+  min-height: 225px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min-content min-content;
   column-gap: 30px;
   row-gap: 20px;
 
   @media (max-width: $vp-tablet) {
     width: 100%;
+    min-height: 305px;
+  }
+
+  @media (max-width: $vp-mobile) {
+    grid-template-columns: 1fr;
+    min-height: 450px;
+    min-width: fit-content;
   }
 }
 
@@ -78,12 +96,17 @@
 
 .feedback__wrapper textarea {
   min-height: 155px;
-  width: 100%;
+  width: fit-content;
+  min-width: 580px;
   color: white;
   background: #04142726;
   border-radius: 3px;
   border: none;
   padding: 15px;
+
+  @media (max-width: $vp-mobile) {
+    min-width: 100%;
+  }
 }
 
 .feedback__wrapper input::placeholder,
@@ -96,6 +119,15 @@
   line-height: 22px;
 }
 
+.feedback__wrapper label {
+  width: fit-content;
+  min-width: 275px;
+
+  @media (max-width: $vp-mobile) {
+    width: 100%;
+  }
+}
+
 .feedback__wrapper label > span {
   color: white;
   opacity: 0.8;
@@ -104,7 +136,8 @@
 }
 
 .feedback__wrapper .btn {
-  width: 265px;
+  min-width: 265px;
+  width: fit-content;
   height: 45px;
   color: white;
   font-family: 'Roboto Condensed', 'Courier', monospace;
@@ -126,6 +159,17 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-tablet) {
+    width: fit-content;
+  }
+
+  @media (max-width: $vp-mobile) {
+    grid-row: 4 / 5;
+    width: 100%;
+    margin: 0;
+    width: fit-content;
   }
 }
 

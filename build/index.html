@@ -16,9 +16,10 @@
             <li class="header__item">
               <a class="header__logo" href="#">
                 <span class="visually-hidden">Главная страница</span>
-                <svg class="header__img" width="215" height="55">
-                  <use href="img/sprite_auto.svg#logo"></use>
-                </svg>
+                <picture>
+                  <source media="(max-width: 769px)" srcset="img/svg/logo-mobile.svg">
+                  <img class="header__img" src="img/svg/logo.svg" width="215" height="55" alt="Магазин Мишка">
+                </picture>
               </a>
             </li>
             <li class="header__item">
@@ -121,7 +122,7 @@
           </div>
         </section>
         <section class="feedback">
-          <div class="container feedback__wrapper">
+          <div class="feedback__wrapper">
             <h2>Остались вопросы? Задайте их нам!</h2>
             <p>Мы проконсультируем Вас бесплатно</p>
             <form action="https://echo.htmlacademy.ru/courses" method="post">
