@@ -8,12 +8,9 @@
   @media (max-width: $vp-mobile) {
     flex-direction: column;
     align-items: center;
-
-    &::after {
-      border-bottom: 1px solid #f8fdffb3;
-      margin-left: -25px;
-      margin-right: -25px;
-    }
+    border-bottom: 1px solid #f8fdffb3;
+    margin-left: -25px;
+    margin-right: -25px;
   }
 }
 

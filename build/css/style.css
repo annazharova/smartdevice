@@ -1843,6 +1843,10 @@ button,
     min-width: 270px;
     font-size: 14px;
     line-height: 16px;
+    min-height: 40px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 
   .advantages {
@@ -1943,7 +1947,7 @@ button,
     width: fit-content;
   }
 
-  .navigation::after {
+  .navigation {
     border-bottom: 1px solid #f8fdffb3;
     margin-left: -25px;
     margin-right: -25px;
@@ -1963,9 +1967,6 @@ button,
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .social::after {
     border-bottom: 1px solid #f8fdffb3;
     margin-left: -25px;
     margin-right: -25px;
@@ -1975,10 +1976,11 @@ button,
     padding: 0;
   }
 
-  .address::after {
+  .address {
     border-bottom: 1px solid #f8fdffb3;
     margin-left: -25px;
     margin-right: -25px;
+    padding-left: 25px;
   }
 }
 

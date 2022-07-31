@@ -49,10 +49,11 @@
     background-color: $default-active;
   }
 
-
   @media (max-width: $vp-mobile) {
     min-width: 270px;
     font-size: 14px;
     line-height: 16px;
+    min-height: 40px;
+    height: fit-content;
   }
 }

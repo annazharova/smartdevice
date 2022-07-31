@@ -207,6 +207,16 @@ button.addEventListener('click', function () {
     button.innerText = 'Свернуть';
   }
 });
+var consult = document.body.querySelector('.intro .btn');
+var goodsTitle = document.body.querySelector('.goods h2');
+
+if (window.outerWidth < 770) {
+  consult.innerText = 'бесплатная консультация';
+  goodsTitle.innerText = 'Товары и услуги Smart Device';
+} else {
+  consult.innerText = 'получить бесплатную консультацию';
+  goodsTitle.innerText = 'Smart Device предлагает следующие товары и услуги';
+}
 
 /***/ }),
 
