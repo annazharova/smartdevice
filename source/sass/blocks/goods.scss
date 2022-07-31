@@ -75,11 +75,13 @@
 }
 
 .goods__item:first-child a {
-  background-image: url("../img/card-background-1.webp");
-  width: fit-content;
+  @media (min-width: $vp-desktop) {
+    background-image: url("../img/card-background-1.webp");
+    width: fit-content;
 
-  @media (min-resolution: 2dppx) {
-    background-image: url("../img/card-background-1@2x.webp");
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/card-background-1@2x.webp");
+    }
   }
 
   @media (max-width: $vp-tablet) {
@@ -100,11 +102,13 @@
 }
 
 .goods__item:nth-child(2) a {
-  background-image: url("../img/card-background-2.webp");
-  width: fit-content;
+  @media (min-width: $vp-desktop) {
+    background-image: url("../img/card-background-2.webp");
+    width: fit-content;
 
-  @media (min-resolution: 2dppx) {
-    background-image: url("../img/card-background-2@2x.webp");
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/card-background-2@2x.webp");
+    }
   }
 
   @media (max-width: $vp-tablet) {
@@ -125,11 +129,13 @@
 }
 
 .goods__item:last-child a {
-  background-image: url("../img/card-background-3.webp");
-  width: fit-content;
+  @media (min-width: $vp-desktop) {
+    background-image: url("../img/card-background-3.webp");
+    width: fit-content;
 
-  @media (min-resolution: 2dppx) {
-    background-image: url("../img/card-background-3@2x.webp");
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/card-background-3@2x.webp");
+    }
   }
 
   @media (max-width: $vp-tablet) {

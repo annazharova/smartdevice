@@ -1,5 +1,4 @@
 .feedback {
-  background-image: url("../img/form-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,8 +9,12 @@
   padding-left: 25px;
   padding-right: 25px;
 
-  @media (min-resolution: 2dppx) {
-    background-image: url("../img/form-background@2x.webp");
+  @media (min-width: $vp-desktop) {
+    background-image: url("../img/form-background.webp");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/form-background@2x.webp");
+    }
   }
 
   @media (max-width: $vp-tablet) {
