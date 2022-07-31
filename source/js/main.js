@@ -119,28 +119,27 @@ if (window.outerWidth < 770) {
   consult.innerText = 'бесплатная консультация';
   goodsTitle.innerText = 'Товары и услуги Smart Device';
 
-bodyItems.forEach(function(item, i, accordionItem) {
-  item.classList.remove('no-js');
-});
-
-var activeAccordion;
-accordionItem.forEach(function(item, i, accordionItem) {
-  item.addEventListener('click', function(e) {
-    //show new thingy;
-    this.classList.add('accordion-active');
-    this.nextElementSibling.classList.add('active');
-    //hide old thingy
-    if (activeAccordion) {
-      activeAccordion.classList.remove('accordion-active');
-      activeAccordion.nextElementSibling.classList.remove('active');
-    }
-    //update thingy
-    activeAccordion = (activeAccordion === this) ? 0 : this;
+  bodyItems.forEach(function(item, i, accordionItem) {
+    item.classList.remove('no-js');
   });
-});
+
+  var activeAccordion;
+  accordionItem.forEach(function(item, i, accordionItem) {
+    item.addEventListener('click', function(e) {
+      //show new thingy;
+      this.classList.add('accordion-active');
+      this.nextElementSibling.classList.add('active');
+      //hide old thingy
+      if (activeAccordion) {
+        activeAccordion.classList.remove('accordion-active');
+        activeAccordion.nextElementSibling.classList.remove('active');
+      }
+      //update thingy
+      activeAccordion = (activeAccordion === this) ? 0 : this;
+    });
+  });
 
 } else {
   consult.innerText = 'получить бесплатную консультацию';
   goodsTitle.innerText = 'Smart Device предлагает следующие товары и услуги';
 }
-
