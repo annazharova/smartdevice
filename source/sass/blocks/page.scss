@@ -1,10 +1,10 @@
 .page {
-  font-family: "PT Mono", 'Courier', monospace;
+  font-family: $pt-mono;
   background-color: #e5e5e5;
 }
 
 .page h1 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: $roboto;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 80px;
@@ -28,7 +28,7 @@
 }
 
 .page h2 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: $roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;

@@ -20,6 +20,7 @@
 
   @media (max-width: $vp-mobile) {
     grid-template-columns: 1fr;
+    row-gap: unset;
   }
 }
 
@@ -29,11 +30,13 @@
 }
 
 .footer h2 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: $roboto;
   font-weight: 400;
   font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $base-white;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }

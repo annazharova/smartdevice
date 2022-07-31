@@ -8,7 +8,7 @@
 }
 
 .address a {
-  color: #ffffffb3;
+  color: $transparent-white;
   padding: 5px;
   display: flex;
   margin-left: -5px;
@@ -23,6 +23,6 @@
 }
 
 .address p {
-  color: #ffffffb3;
+  color: $transparent-white;
   margin: 0;
 }

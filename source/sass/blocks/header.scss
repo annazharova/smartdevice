@@ -83,7 +83,7 @@
 }
 
 .header__item .btn {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: $roboto;
   min-width: 160px;
   min-height: 40px;
   border: 1px solid $default-white;

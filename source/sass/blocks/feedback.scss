@@ -83,7 +83,7 @@
   background: #04142726;
   border-radius: 3px;
   border: none;
-  color: white;
+  color: $base-white;
   padding: 15px;
 }
 
@@ -98,7 +98,7 @@
   min-height: 155px;
   width: fit-content;
   min-width: 580px;
-  color: white;
+  color: $base-white;
   background: #04142726;
   border-radius: 3px;
   border: none;
@@ -111,8 +111,8 @@
 
 .feedback__wrapper input::placeholder,
 .feedback__wrapper textarea::placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: $base-white;
+  font-family: $pt-mono;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -129,7 +129,7 @@
 }
 
 .feedback__wrapper label > span {
-  color: white;
+  color: $base-white;
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
@@ -139,8 +139,8 @@
   min-width: 265px;
   width: fit-content;
   height: 45px;
-  color: white;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  color: $base-white;
+  font-family: $roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

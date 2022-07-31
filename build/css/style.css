@@ -725,7 +725,7 @@ button,
   background: #04142726;
   border-radius: 3px;
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 15px;
 }
 
@@ -749,7 +749,7 @@ button,
 .modal textarea {
   min-height: 155px;
   width: 100%;
-  color: white;
+  color: #ffffff;
   background: #04142726;
   border-radius: 3px;
   border: none;
@@ -758,8 +758,8 @@ button,
 
 .modal input::-webkit-input-placeholder,
 .modal textarea::-webkit-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -768,8 +768,8 @@ button,
 
 .modal input::-moz-placeholder,
 .modal textarea::-moz-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -778,8 +778,8 @@ button,
 
 .modal input:-ms-input-placeholder,
 .modal textarea:-ms-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -788,8 +788,8 @@ button,
 
 .modal input::-ms-input-placeholder,
 .modal textarea::-ms-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -798,8 +798,8 @@ button,
 
 .modal input::placeholder,
 .modal textarea::placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -807,7 +807,7 @@ button,
 }
 
 .modal label > span {
-  color: white;
+  color: #ffffff;
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
@@ -816,8 +816,8 @@ button,
 .modal .btn {
   width: 100%;
   height: 45px;
-  color: white;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -842,12 +842,12 @@ button,
 }
 
 .page {
-  font-family: "PT Mono", 'Courier', monospace;
+  font-family: "PT Mono", "Courier", monospace;
   background-color: #e5e5e5;
 }
 
 .page h1 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 80px;
@@ -859,7 +859,7 @@ button,
 }
 
 .page h2 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -914,7 +914,7 @@ button,
 }
 
 .header__item .btn {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   min-width: 160px;
   min-height: 40px;
   border: 1px solid #f2f5f7;
@@ -959,7 +959,7 @@ button,
   height: 55px;
   border-radius: 3px;
   background-color: #00b2ff;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -1024,7 +1024,7 @@ button,
 
 .advantages__item h3 {
   color: #00b2ff;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -1032,7 +1032,7 @@ button,
 }
 
 .advantages__item p {
-  font-family: 'PT Mono', 'Courier', monospace;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1076,7 +1076,7 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   color: #00b2ff;
   font-weight: 700;
   font-size: 14px;
@@ -1246,7 +1246,7 @@ button,
   background: #04142726;
   border-radius: 3px;
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 15px;
 }
 
@@ -1265,7 +1265,7 @@ button,
   width: -moz-fit-content;
   width: fit-content;
   min-width: 580px;
-  color: white;
+  color: #ffffff;
   background: #04142726;
   border-radius: 3px;
   border: none;
@@ -1274,8 +1274,8 @@ button,
 
 .feedback__wrapper input::-webkit-input-placeholder,
 .feedback__wrapper textarea::-webkit-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1284,8 +1284,8 @@ button,
 
 .feedback__wrapper input::-moz-placeholder,
 .feedback__wrapper textarea::-moz-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1294,8 +1294,8 @@ button,
 
 .feedback__wrapper input:-ms-input-placeholder,
 .feedback__wrapper textarea:-ms-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1304,8 +1304,8 @@ button,
 
 .feedback__wrapper input::-ms-input-placeholder,
 .feedback__wrapper textarea::-ms-input-placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1314,8 +1314,8 @@ button,
 
 .feedback__wrapper input::placeholder,
 .feedback__wrapper textarea::placeholder {
-  color: white;
-  font-family: 'PT Mono', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "PT Mono", "Courier", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1330,7 +1330,7 @@ button,
 }
 
 .feedback__wrapper label > span {
-  color: white;
+  color: #ffffff;
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
@@ -1342,8 +1342,8 @@ button,
   width: -moz-fit-content;
   width: fit-content;
   height: 45px;
-  color: white;
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  color: #ffffff;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1398,13 +1398,15 @@ button,
 }
 
 .footer h2 {
-  font-family: 'Roboto Condensed', 'Courier', monospace;
+  font-family: "Roboto Condensed", "Courier", monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .social__list {
@@ -1604,6 +1606,14 @@ button,
 
 .phone a:active {
   background-color: #106082;
+}
+
+.active {
+  display: block;
+}
+
+.no-js {
+  display: block;
 }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
@@ -1891,7 +1901,7 @@ button,
   }
 
   .goods__item span {
-    font-family: 'Roboto Condensed', 'Courier', monospace;
+    font-family: "Roboto Condensed", "Courier", monospace;
     font-size: 18px;
     line-height: 30px;
     padding: 30px 135px 30px 30px;
@@ -1957,6 +1967,7 @@ button,
   .footer__wrapper {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    row-gap: unset;
   }
 
   .social {
@@ -1981,6 +1992,27 @@ button,
     margin-left: -25px;
     margin-right: -25px;
     padding-left: 25px;
+  }
+
+  .accordion-title {
+    cursor: pointer;
+    background-image: url("../img/svg/plus.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    margin-right: 25px;
+  }
+
+  .accordion-body {
+    display: none;
+  }
+
+  .accordion-active {
+    background-image: url("../img/svg/minus.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    margin-right: 25px;
   }
 }
 

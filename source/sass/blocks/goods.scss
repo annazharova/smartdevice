@@ -64,10 +64,10 @@
 .goods__item span {
   padding: 40px 50px;
   max-width: min-content;
-  color: #ffffff;
+  color: $base-white;
 
   @media (max-width: $vp-mobile) {
-    font-family: 'Roboto Condensed', 'Courier', monospace;
+    font-family: $roboto;
     font-size: 18px;
     line-height: 30px;
     padding: 30px 135px 30px 30px;
