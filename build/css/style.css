@@ -443,6 +443,10 @@ body {
 a {
   color: #041827;
   text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 img,
@@ -571,6 +575,10 @@ button,
   margin: 0 auto;
 }
 
+.scroll-lock {
+  overflow: hidden;
+}
+
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -580,6 +588,10 @@ button,
   color: #f2f5f7;
   border: none;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn:disabled {
