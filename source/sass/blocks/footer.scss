@@ -3,6 +3,7 @@
   color: $default-white;
   padding-top: 50px;
   padding-bottom: 55px;
+  flex: 0 0 auto;
 
   @media (max-width: $vp-tablet) {
     padding-bottom: 65px;
