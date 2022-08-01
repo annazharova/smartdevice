@@ -23,6 +23,8 @@
 .footer-navigation__item a {
   color: $transparent-white;
   padding: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   display: flex;
 
   &:hover,

@@ -22,7 +22,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   min-width: 150px;
   width: fit-content;
-  padding-left: 10px;
+  padding-left: 3px;
+  gap: 1px;
 
   @media (max-width: $vp-mobile) {
     padding: 0;
@@ -35,7 +36,7 @@
 
 .social__link {
   display: flex;
-  padding: 10px;
+  padding: 12px;
 
   &:hover .social__img,
   &:focus .social__img {

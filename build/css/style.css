@@ -883,7 +883,7 @@ button,
   font-size: 80px;
   line-height: 94px;
   letter-spacing: 0.07em;
-  margin-top: -590px;
+  margin-top: -575px;
   margin-bottom: 0;
   color: #f2f5f7;
 }
@@ -933,7 +933,7 @@ button,
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1160px;
-  margin: 0 25px;
+  margin: 0;
 }
 
 .header__item a {
@@ -958,6 +958,7 @@ button,
   text-align: center;
   letter-spacing: 0.05em;
   padding: 10px 15px;
+  margin-top: 5px;
 }
 
 .header__item .btn:hover,
@@ -970,7 +971,7 @@ button,
 }
 
 .intro {
-  padding-left: 125px;
+  padding-left: 205px;
 }
 
 .intro p {
@@ -979,7 +980,7 @@ button,
   font-size: 22px;
   line-height: 155%;
   max-width: 685px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
@@ -996,7 +997,7 @@ button,
   letter-spacing: 0.05em;
   text-transform: uppercase;
   padding: 15px 25px;
-  margin-top: 40px;
+  margin-top: 47px;
 }
 
 .intro .btn:hover,
@@ -1009,7 +1010,7 @@ button,
 }
 
 .advantages {
-  margin-top: 400px;
+  margin-top: 390px;
 }
 
 .advantages__list {
@@ -1032,7 +1033,7 @@ button,
   min-height: 300px;
   border: 1px solid #ebebeb;
   border-left: 5px solid #00b2ff;
-  padding: 40px 45px;
+  padding: 40px;
 }
 
 .advantages__item:hover,
@@ -1058,6 +1059,7 @@ button,
   font-size: 24px;
   line-height: 140%;
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .advantages__item p {
@@ -1066,7 +1068,7 @@ button,
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
-  margin-top: 15px;
+  margin-top: 14px;
   margin-bottom: 0;
 }
 
@@ -1085,7 +1087,8 @@ button,
 .company p {
   font-size: 16px;
   line-height: 22px;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 21px;
 }
 
 .company summary {
@@ -1106,12 +1109,14 @@ button,
   -ms-flex-pack: center;
   justify-content: center;
   font-family: "Roboto Condensed", "Courier", monospace;
+  letter-spacing: 0.05em;
   color: #00b2ff;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-top: 40px;
 }
 
 .company summary:hover,
@@ -1131,8 +1136,8 @@ button,
 }
 
 .goods h2 {
-  padding-top: 70px;
-  margin-bottom: 50px;
+  padding-top: 67px;
+  margin-bottom: 53px;
 }
 
 .goods__list {
@@ -1171,10 +1176,9 @@ button,
 }
 
 .goods__item span {
-  padding: 40px 50px;
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
+  font-family: "Roboto Condensed", "Courier", monospace;
+  padding: 47px 40px;
+  width: 240px;
   color: #ffffff;
 }
 
@@ -1202,14 +1206,14 @@ button,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 250px;
-  padding-top: 170px;
+  padding-bottom: 225px;
+  padding-top: 165px;
+  padding-left: 25px;
+  padding-right: 25px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  padding-left: 25px;
-  padding-right: 25px;
   background-color: #00b2ff;
 }
 
@@ -1219,6 +1223,7 @@ button,
   font-size: 36px;
   line-height: 51px;
   margin: 0;
+  margin-left: -3px;
 }
 
 .feedback p {
@@ -1226,11 +1231,13 @@ button,
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  margin-top: 15px;
+  margin-top: 13px;
+  margin-bottom: 33px;
 }
 
 .feedback__wrapper {
   grid-column: 2 / -1;
+  padding-left: 17px;
 }
 
 .feedback__wrapper form {
@@ -1279,6 +1286,7 @@ button,
   border-radius: 3px;
   border: none;
   padding: 15px;
+  padding-top: 25px;
 }
 
 .feedback__wrapper input::-webkit-input-placeholder,
@@ -1343,6 +1351,7 @@ button,
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
+  padding: 23px 10px;
 }
 
 .feedback__wrapper .btn {
@@ -1389,7 +1398,7 @@ button,
   background-color: #041827;
   color: #f2f5f7;
   padding-top: 50px;
-  padding-bottom: 55px;
+  padding-bottom: 30px;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -1398,15 +1407,15 @@ button,
 .footer__wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 470px 345px;
-  grid-template-columns: 1fr 470px 345px;
+  -ms-grid-columns: 373px 1fr 347px;
+  grid-template-columns: 373px 1fr 347px;
 }
 
 .footer__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 17px;
+  margin-bottom: 23px;
 }
 
 .footer h2 {
@@ -1417,8 +1426,9 @@ button,
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 20px;
+  padding-top: 8px;
   padding-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .social__list {
@@ -1433,7 +1443,8 @@ button,
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding-left: 10px;
+  padding-left: 3px;
+  gap: 1px;
 }
 
 .social__img {
@@ -1444,7 +1455,7 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  padding: 12px;
 }
 
 .social__link:hover .social__img,
@@ -1487,6 +1498,8 @@ button,
 .footer-navigation__item a {
   color: #ffffffb3;
   padding: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1548,8 +1561,8 @@ button,
   content: "";
   display: inline-block;
   vertical-align: baseline;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   -webkit-box-flex: 0;
@@ -1577,11 +1590,17 @@ button,
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 17'%3e%3cpath fill='%23fff' d='M23.963 1.68385L22.9687 0.692322L8.76555 14.7862L1.73497 7.77467L0.740742 8.76619L7.77132 15.7777L8.76555 16.7692L9.83079 15.7777L23.963 1.68385Z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 11px;
+  background-size: 10px;
+  margin-right: 10px;
 }
 
 .custom-checkbox > input:disabled + span::before {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.email {
+  margin-left: 40px;
+  margin-top: 12px;
 }
 
 .email a {
@@ -1590,7 +1609,7 @@ button,
   background-position-y: center;
   background-position-x: 0px;
   padding: 10px;
-  padding-left: 40px;
+  padding-left: 35px;
 }
 
 .email a:hover,
@@ -1600,6 +1619,11 @@ button,
 
 .email a:active {
   background-color: #106082;
+}
+
+.phone {
+  margin-top: 12px;
+  margin-right: 40px;
 }
 
 .phone a {
@@ -1961,7 +1985,9 @@ button,
   }
 
   .goods__item span {
-    font-family: "Roboto Condensed", "Courier", monospace;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
+    max-width: min-content;
     font-size: 18px;
     line-height: 30px;
     padding: 30px 135px 30px 30px;

@@ -11,8 +11,8 @@
 }
 
 .goods h2 {
-  padding-top: 70px;
-  margin-bottom: 50px;
+  padding-top: 67px;
+  margin-bottom: 53px;
 
   @media (max-width: $vp-tablet) {
     padding-top: 60px;
@@ -63,12 +63,13 @@
 }
 
 .goods__item span {
-  padding: 40px 50px;
-  max-width: min-content;
+  font-family: $roboto;
+  padding: 47px 40px;
+  width: 240px;
   color: $base-white;
 
   @media (max-width: $vp-mobile) {
-    font-family: $roboto;
+    max-width: min-content;
     font-size: 18px;
     line-height: 30px;
     padding: 30px 135px 30px 30px;

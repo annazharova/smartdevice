@@ -24,7 +24,8 @@
 .company p {
   font-size: 16px;
   line-height: 22px;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 21px;
 }
 
 .company summary {
@@ -37,12 +38,14 @@
   align-items: center;
   justify-content: center;
   font-family: $roboto;
+  letter-spacing: 0.05em;
   color: $base-blue;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-top: 40px;
 
   &:hover,
   &:focus {

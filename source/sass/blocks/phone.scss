@@ -1,4 +1,7 @@
 .phone {
+  margin-top: 12px;
+  margin-right: 40px;
+
   @media (max-width: $vp-tablet) {
     margin: 0;
   }

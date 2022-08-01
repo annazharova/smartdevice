@@ -13,8 +13,8 @@
   content: "";
   display: inline-block;
   vertical-align: baseline;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   flex-shrink: 0;
   flex-grow: 0;
   border: 1px solid #fff;
@@ -39,7 +39,8 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 17'%3e%3cpath fill='%23fff' d='M23.963 1.68385L22.9687 0.692322L8.76555 14.7862L1.73497 7.77467L0.740742 8.76619L7.77132 15.7777L8.76555 16.7692L9.83079 15.7777L23.963 1.68385Z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 11px;
+  background-size: 10px;
+  margin-right: 10px;
 }
 
 .custom-checkbox > input:disabled + span::before {

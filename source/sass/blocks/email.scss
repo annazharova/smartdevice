@@ -1,4 +1,7 @@
 .email {
+  margin-left: 40px;
+  margin-top: 12px;
+
   @media (max-width: $vp-tablet) {
     margin: 0;
   }
@@ -10,7 +13,7 @@
   background-position-y: center;
   background-position-x: 0px;
   padding: 10px;
-  padding-left: 40px;
+  padding-left: 35px;
 
   &:hover,
   &:focus {

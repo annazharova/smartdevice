@@ -2,12 +2,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 250px;
-  padding-top: 170px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding-bottom: 225px;
+  padding-top: 165px;
   padding-left: 25px;
   padding-right: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: $base-blue;
 
   @media (min-width: $vp-desktop) {
@@ -36,6 +36,7 @@
   font-size: 36px;
   line-height: 51px;
   margin: 0;
+  margin-left: -3px;
 
   @media (max-width: $vp-mobile) {
     font-size: 30px;
@@ -48,11 +49,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  margin-top: 15px;
+  margin-top: 13px;
+  margin-bottom: 33px;
 }
 
 .feedback__wrapper {
   grid-column: 2 / -1;
+  padding-left: 17px;
 
   @media (max-width: $vp-tablet) {
     grid-column: auto;
@@ -106,6 +109,7 @@
   border-radius: 3px;
   border: none;
   padding: 15px;
+  padding-top: 25px;
 
   @media (max-width: $vp-mobile) {
     min-width: 100%;
@@ -136,6 +140,7 @@
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
+  padding: 23px 10px;
 }
 
 .feedback__wrapper .btn {

@@ -65,7 +65,7 @@
   padding-top: 30px;
   justify-content: space-between;
   max-width: 1160px;
-  margin: 0 25px;
+  margin: 0;
 
   @media (max-width: $vp-tablet) {
     padding-top: 20px;
@@ -100,6 +100,7 @@
   text-align: center;
   letter-spacing: 0.05em;
   padding: 10px 15px;
+  margin-top: 5px;
 
   &:hover,
   &:focus {
