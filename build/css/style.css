@@ -1122,6 +1122,7 @@ button,
 
 .goods__item a {
   color: #f2f5f7;
+  background-color: #041827;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1179,6 +1180,7 @@ button,
   grid-template-columns: 1fr 1fr;
   padding-left: 25px;
   padding-right: 25px;
+  background-color: #00b2ff;
 }
 
 .feedback h2 {
@@ -1743,15 +1745,10 @@ button,
 
   .feedback {
     background-image: none;
-    background-color: #00b2ff;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     padding-top: 50px;
     padding-bottom: 125px;
-  }
-
-  .feedback {
-    padding-bottom: 90px;
   }
 
   .feedback__wrapper {
@@ -1952,6 +1949,10 @@ button,
   .goods__square {
     width: 40px;
     height: 40px;
+  }
+
+  .feedback {
+    padding-bottom: 90px;
   }
 
   .feedback h2 {

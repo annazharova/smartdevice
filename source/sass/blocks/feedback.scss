@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 1fr;
   padding-left: 25px;
   padding-right: 25px;
+  background-color: $base-blue;
 
   @media (min-width: $vp-desktop) {
     background-image: url("../img/form-background.webp");
@@ -19,13 +20,12 @@
 
   @media (max-width: $vp-tablet) {
     background-image: none;
-    background-color: $base-blue;
     grid-template-columns: 1fr;
     padding-top: 50px;
     padding-bottom: 125px;
   }
 
-  @media (max-width: $vp-tablet) {
+  @media (max-width: $vp-mobile) {
     padding-bottom: 90px;
   }
 }
