@@ -15,7 +15,8 @@
   margin-bottom: 53px;
 
   @media (max-width: $vp-tablet) {
-    padding-top: 60px;
+    padding-top: 55px;
+    margin-bottom: 38px;
   }
 
   @media (max-width: $vp-mobile) {
@@ -67,6 +68,10 @@
   padding: 47px 40px;
   width: 240px;
   color: $base-white;
+
+  @media (max-width: $vp-tablet) {
+    padding: 37px 45px;
+  }
 
   @media (max-width: $vp-mobile) {
     max-width: min-content;

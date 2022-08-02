@@ -3,6 +3,7 @@
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
+    margin-right: -10px;
   }
 
   @media (max-width: $vp-mobile) {
@@ -24,6 +25,10 @@
   width: fit-content;
   padding-left: 3px;
   gap: 1px;
+
+  @media (max-width: $vp-tablet) {
+    margin-top: -2px;
+  }
 
   @media (max-width: $vp-mobile) {
     padding: 0;

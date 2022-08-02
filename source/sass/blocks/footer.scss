@@ -6,7 +6,7 @@
   flex: 0 0 auto;
 
   @media (max-width: $vp-tablet) {
-    padding-bottom: 65px;
+    padding-bottom: 59px;
   }
 }
 
@@ -16,7 +16,8 @@
 
   @media (max-width: $vp-tablet) {
     grid-template-columns: 1fr 1fr;
-    row-gap: 30px;
+    row-gap: 5px;
+    column-gap: 25px;
   }
 
   @media (max-width: $vp-mobile) {

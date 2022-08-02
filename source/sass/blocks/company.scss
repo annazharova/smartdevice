@@ -6,8 +6,10 @@
   margin-top: 120px;
 
   @media (max-width: $vp-tablet) {
-    margin-top: 80px;
-    padding-left: 180px;
+    margin-top: 75px;
+    padding-left: 175px;
+    background-position-x: -4px;
+    background-position-y: 5px;
   }
 
   @media (max-width: $vp-mobile) {
@@ -53,6 +55,10 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-tablet) {
+    margin-top: -5px;
   }
 
   @media (max-width: $vp-mobile) {

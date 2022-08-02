@@ -17,6 +17,7 @@
 
   @media (max-width: $vp-tablet) {
     font-size: 22px;
+    margin: 0;
   }
 
   @media (max-width: $vp-mobile) {
@@ -47,6 +48,11 @@
   }
   &:active {
     background-color: $default-active;
+  }
+
+  @media (max-width: $vp-tablet) {
+    margin-top: 57px;
+    margin-left: 45px;
   }
 
   @media (max-width: $vp-mobile) {

@@ -45,6 +45,7 @@
 
   @media (max-width: $vp-tablet) {
     position: unset;
+    background-image: none;
   }
 }
 
@@ -70,7 +71,7 @@
   @media (max-width: $vp-tablet) {
     padding-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 40px 40px;
+    grid-template-columns: 1fr 60px 60px;
     margin: 0;
   }
 
