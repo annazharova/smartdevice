@@ -8,6 +8,11 @@
   @media (max-width: $vp-tablet) {
     padding-bottom: 59px;
   }
+
+  @media (max-width: $vp-mobile) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
 }
 
 .footer__wrapper {
@@ -29,6 +34,11 @@
 .footer__logo {
   display: flex;
   margin-bottom: 23px;
+
+  @media (max-width: $vp-mobile) {
+    margin-left: -3px;
+    margin-bottom: 10px;
+  }
 }
 
 .footer h2 {
@@ -42,4 +52,9 @@
   padding-top: 8px;
   padding-bottom: 15px;
   margin-bottom: 0;
+
+  @media (max-width: $vp-mobile) {
+    padding-top: 23px;
+    padding-bottom: 20px;
+  }
 }

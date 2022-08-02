@@ -13,7 +13,7 @@
   }
 
   @media (max-width: $vp-mobile) {
-    margin-top: 50px;
+    margin-top: 48px;
     padding-left: 0;
     background-image: none;
   }
@@ -21,6 +21,11 @@
 
 .company h2 {
   margin-bottom: 0;
+
+  @media (max-width: $vp-mobile) {
+    font-size: 28px;
+    line-height: 140.62%;
+  }
 }
 
 .company p {
@@ -28,6 +33,11 @@
   line-height: 22px;
   margin-top: 10px;
   margin-bottom: 21px;
+
+  @media (max-width: $vp-mobile) {
+    font-size: 14px;
+    line-height: 134.4%;
+  }
 }
 
 .company summary {

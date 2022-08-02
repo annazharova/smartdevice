@@ -25,4 +25,9 @@
 .address p {
   color: $transparent-white;
   margin: 0;
+
+  @media (max-width: $vp-mobile) {
+    font-size: 14px;
+    line-height: 135%;
+  }
 }

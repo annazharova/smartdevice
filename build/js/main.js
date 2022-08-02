@@ -215,7 +215,7 @@ accordionItem.__proto__.forEach = [].__proto__.forEach;
 
 if (window.outerWidth < 770) {
   consult.innerText = 'бесплатная консультация';
-  goodsTitle.innerText = 'Товары и услуги Smart Device';
+  goodsTitle.innerText = 'Товары и услуги Smart Device';
   bodyItems.forEach(function (item, i, accordionItem) {
     item.classList.remove('no-js');
   });
@@ -237,7 +237,7 @@ if (window.outerWidth < 770) {
   });
 } else {
   consult.innerText = 'получить бесплатную консультацию';
-  goodsTitle.innerText = 'Smart Device предлагает следующие товары и услуги';
+  goodsTitle.innerText = 'Smart Device предлагает следующие товары и услуги';
 }
 
 /***/ }),

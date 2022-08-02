@@ -34,4 +34,9 @@
   &:active {
     background-color: $default-active;
   }
+
+  @media (max-width: $vp-mobile) {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }

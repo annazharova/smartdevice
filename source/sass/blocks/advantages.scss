@@ -6,7 +6,7 @@
   }
 
   @media (max-width: $vp-mobile) {
-    margin-top: 160px;
+    margin-top: 230px;
   }
 }
 
@@ -29,6 +29,12 @@
   @media (max-width: $vp-tablet) {
     margin-bottom: 15px;
     display: flex;
+  }
+
+  @media (max-width: $vp-mobile) {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -63,7 +69,7 @@
 
   @media (max-width: $vp-mobile) {
     min-height: 340px;
-    padding: 30px 30px 30px 35px;
+    padding: 30px 30px 30px 25px;
   }
 }
 
@@ -81,7 +87,7 @@
   }
 
   @media (max-width: $vp-mobile) {
-    font-size: 20px;
+    font-size: 20px;    margin-top: 17px;
   }
 }
 

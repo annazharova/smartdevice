@@ -26,6 +26,7 @@
 
   @media (max-width: $vp-mobile) {
     padding-bottom: 90px;
+    padding: 47px 25px 75px;
   }
 }
 
@@ -59,6 +60,12 @@
   margin-top: 7px;
   margin-bottom: 25px;
   }
+
+  @media (max-width: $vp-mobile) {
+    font-size: 14px;
+    line-height: 134.4%;
+    margin-bottom: 35px;
+  }
 }
 
 .feedback__wrapper {
@@ -70,6 +77,10 @@
     margin: 0 auto;
     min-width: 670px;
     padding-left: 0;
+  }
+
+  @media (max-width: $vp-mobile) {
+    min-width: 270px;
   }
 }
 
@@ -130,6 +141,8 @@
 
   @media (max-width: $vp-mobile) {
     min-width: 100%;
+    min-height: 180px;
+    padding-top: 25px;
   }
 }
 
@@ -149,6 +162,11 @@
 
   @media (max-width: $vp-tablet) {
     width: 100%;
+  }
+
+  @media (max-width: $vp-mobile) {
+    min-width: 270px;
+    min-height: 50px;
   }
 }
 
@@ -200,6 +218,7 @@
     width: 100%;
     margin: 0;
     width: fit-content;
+    min-width: 270px;
   }
 }
 
