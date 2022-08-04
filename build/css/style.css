@@ -1998,6 +1998,7 @@ button,
     min-width: -moz-fit-content;
     min-width: fit-content;
     margin-top: 8px;
+    min-height: 35px;
   }
 
   .intro .btn {

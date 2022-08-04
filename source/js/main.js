@@ -96,16 +96,6 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 
-const button = document.body.querySelector('.company summary');
-
-button.addEventListener('click', function() {
-
-  if (button.innerText.toLowerCase() === 'свернуть') {
-    button.innerText = 'Подробнее';
-  } else {
-    button.innerText = 'Свернуть';
-  }
-});
 
 
 const consult = document.body.querySelector('.intro .btn');
@@ -126,15 +116,12 @@ if (window.outerWidth < 770) {
   var activeAccordion;
   accordionItem.forEach(function(item, i, accordionItem) {
     item.addEventListener('click', function(e) {
-      //show new thingy;
       this.classList.add('accordion-active');
       this.nextElementSibling.classList.add('active');
-      //hide old thingy
       if (activeAccordion) {
         activeAccordion.classList.remove('accordion-active');
         activeAccordion.nextElementSibling.classList.remove('active');
       }
-      //update thingy
       activeAccordion = (activeAccordion === this) ? 0 : this;
     });
   });
@@ -143,3 +130,38 @@ if (window.outerWidth < 770) {
   consult.innerText = 'получить бесплатную консультацию';
   goodsTitle.innerText = 'Smart Device предлагает следующие товары и услуги';
 }
+
+
+var textDesktop = document.getElementById("textDesktop");
+var textMobile = document.getElementById("textMobile");
+var buttonText = document.getElementById("textButton");
+
+if (buttonText.innerText.toLowerCase() === 'подробнее') {
+  textDesktop.style.display = "none";
+}
+
+if ((window.outerWidth < 770) && (buttonText.innerText.toLowerCase() === 'подробнее')) {
+  textMobile.style.display = "none";
+}
+
+buttonText.addEventListener('click', function() {
+  if (buttonText.innerText.toLowerCase() === 'подробнее') {
+    buttonText.innerText = 'Свернуть';
+    if (window.outerWidth < 770) {
+      textMobile.style.display = "inline";
+      textDesktop.style.display = "inline";
+    }
+    else {
+      textDesktop.style.display = "inline";
+    }
+  } else {
+    buttonText.innerText = 'Подробнее';
+    if (window.outerWidth < 770) {
+      textMobile.style.display = "none";
+      textDesktop.style.display = "none";
+    }
+    else {
+      textDesktop.style.display = "none";
+    }
+  }
+});
