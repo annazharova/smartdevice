@@ -1075,7 +1075,6 @@ button,
 .company {
   background-image: url("../img/2022.png");
   background-repeat: no-repeat;
-  min-height: 320px;
   padding-left: 250px;
   margin-top: 120px;
 }
@@ -1091,7 +1090,7 @@ button,
   margin-bottom: 21px;
 }
 
-.company summary {
+.company button {
   border: 1px solid #00b2ff;
   border-radius: 3px;
   min-width: 180px;
@@ -1111,6 +1110,7 @@ button,
   font-family: "Roboto Condensed", "Courier", monospace;
   letter-spacing: 0.05em;
   color: #00b2ff;
+  background-color: #f2f5f7;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -1119,12 +1119,12 @@ button,
   margin-top: 40px;
 }
 
-.company summary:hover,
-.company summary:focus {
+.company button:hover,
+.company button:focus {
   background-color: #515c60;
 }
 
-.company summary:active {
+.company button:active {
   background-color: #106082;
 }
 
@@ -1789,7 +1789,7 @@ button,
     background-position-y: 5px;
   }
 
-  .company summary {
+  .company button {
     margin-top: -5px;
   }
 
@@ -2068,7 +2068,7 @@ button,
     line-height: 134.4%;
   }
 
-  .company summary {
+  .company button {
     min-width: 160px;
     height: 35px;
   }

@@ -1,7 +1,6 @@
 .company {
   background-image: url("../img/2022.png");
   background-repeat: no-repeat;
-  min-height: 320px;
   padding-left: 250px;
   margin-top: 120px;
 
@@ -40,7 +39,7 @@
   }
 }
 
-.company summary {
+.company button {
   border: 1px solid $base-blue;
   border-radius: 3px;
   min-width: 180px;
@@ -52,6 +51,7 @@
   font-family: $roboto;
   letter-spacing: 0.05em;
   color: $base-blue;
+  background-color: $default-white;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
