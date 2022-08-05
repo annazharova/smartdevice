@@ -21,20 +21,24 @@
   font-size: 80px;
   line-height: 94px;
   letter-spacing: 0.07em;
-  margin-top: -575px;
+  padding-top: 305px;
   margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 125px;
+  margin-right: 125px;
   color: $default-white;
 
   @media (max-width: $vp-tablet) {
     font-size: 64px;
     line-height: 75px;
-    margin-top: -460px;
+    padding-top: 180px;
+    margin: 0;
   }
 
   @media (max-width: $vp-mobile) {
     font-size: 36px;
     line-height: 42px;
-    margin-top: -410px;
+    padding-top: 150px;
   }
 }
 

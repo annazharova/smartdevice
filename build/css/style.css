@@ -883,8 +883,11 @@ button,
   font-size: 80px;
   line-height: 94px;
   letter-spacing: 0.07em;
-  margin-top: -575px;
+  padding-top: 305px;
   margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 125px;
+  margin-right: 125px;
   color: #f2f5f7;
 }
 
@@ -898,15 +901,6 @@ button,
 }
 
 .header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  min-height: 880px;
-  background-color: #041827;
-  color: #f2f5f7;
-}
-
-.header__wrapper {
   background-image: url("../img/top-background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -914,7 +908,6 @@ button,
   position: fixed;
   width: 100%;
   min-height: 120px;
-  z-index: 9;
 }
 
 .header__list {
@@ -928,7 +921,7 @@ button,
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding-top: 30px;
+  padding: 30px 30px 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -971,7 +964,12 @@ button,
 }
 
 .intro {
-  padding-left: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 880px;
+  background-color: #041827;
+  color: #f2f5f7;
 }
 
 .intro p {
@@ -982,6 +980,8 @@ button,
   max-width: 685px;
   margin-top: 30px;
   margin-bottom: 0;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 .intro .btn {
@@ -998,6 +998,8 @@ button,
   text-transform: uppercase;
   padding: 15px 25px;
   margin-top: 47px;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 .intro .btn:hover,
@@ -1010,7 +1012,7 @@ button,
 }
 
 .advantages {
-  margin-top: 390px;
+  margin-top: 120px;
 }
 
 .advantages__list {
@@ -1656,8 +1658,8 @@ button,
 } */
 
 @media (min-width: 1024px) {
-  .header {
-    background-image: url("../img/header-background.webp");
+  .intro {
+    background-image: url("../img/intro-background.webp");
   }
 
   .goods__item:first-child a {
@@ -1690,8 +1692,8 @@ button,
 }
 
 @media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (-o-min-device-pixel-ratio: 2/1), (min-width: 1024px) and (min-resolution: 2dppx) {
-  .header {
-    background-image: url("../img/header-background@2x.webp");
+  .intro {
+    background-image: url("../img/intro-background@2x.webp");
   }
 
   .goods__item:first-child a {
@@ -1720,20 +1722,18 @@ button,
   .page h1 {
     font-size: 64px;
     line-height: 75px;
-    margin-top: -460px;
+    padding-top: 180px;
+    margin: 0;
   }
 
   .header {
-    background-image: url("../img/header-background-tablet.webp");
-    min-height: 640px;
-  }
-
-  .header__wrapper {
     position: unset;
-    background-image: none;
+    z-index: 1;
+    min-height: 100px;
   }
 
   .header__list {
+    padding: 0;
     padding-top: 20px;
     display: -ms-grid;
     display: grid;
@@ -1747,7 +1747,9 @@ button,
   }
 
   .intro {
-    padding-left: 0;
+    background-image: url("../img/intro-background-tablet.webp");
+    min-height: 640px;
+    margin-top: -100px;
   }
 
   .intro p {
@@ -1758,10 +1760,11 @@ button,
   .intro .btn {
     margin-top: 57px;
     margin-left: 45px;
+    margin: 0;
   }
 
   .advantages {
-    margin-top: 275px;
+    margin-top: 80px;
   }
 
   .advantages__img {
@@ -1948,8 +1951,8 @@ button,
 }
 
 @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1023px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 1023px) and (min-resolution: 2dppx) {
-  .header {
-    background-image: url("../img/header-background-tablet@2x.webp");
+  .intro {
+    background-image: url("../img/intro-background-tablet@2x.webp");
   }
 
   .goods__item:first-child a {
@@ -1974,12 +1977,11 @@ button,
   .page h1 {
     font-size: 36px;
     line-height: 42px;
-    margin-top: -410px;
+    padding-top: 150px;
   }
 
   .header {
-    background-image: url("../img/header-background-mobile.webp");
-    min-height: 560px;
+    min-height: 80px;
   }
 
   .header__img {
@@ -1992,6 +1994,12 @@ button,
     padding-top: 10px;
     -ms-grid-columns: 1fr 60px 50px;
     grid-template-columns: 1fr 60px 50px;
+  }
+
+  .intro {
+    background-image: url("../img/intro-background-mobile.webp");
+    min-height: 560px;
+    margin-top: -80px;
   }
 
   .intro p {
@@ -2027,7 +2035,7 @@ button,
   }
 
   .advantages {
-    margin-top: 230px;
+    margin-top: 30px;
   }
 
   .advantages__list {
@@ -2262,8 +2270,8 @@ button,
 }
 
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), (max-width: 767px) and (min-resolution: 2dppx) {
-  .header {
-    background-image: url("../img/header-background-mobile@2x.webp");
+  .intro {
+    background-image: url("../img/intro-background-mobile@2x.webp");
   }
 
   .goods__item:first-child a {
