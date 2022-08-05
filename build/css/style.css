@@ -1665,6 +1665,7 @@ button,
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    background-color: #022849;
   }
 
   .goods__item:nth-child(2) a {
@@ -1672,6 +1673,7 @@ button,
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    background-color: #022849;
   }
 
   .goods__item:last-child a {
@@ -1679,6 +1681,7 @@ button,
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    background-color: #022849;
   }
 
   .feedback {

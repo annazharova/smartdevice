@@ -1,0 +1,9 @@
+.accordion-active {
+  @media (max-width: $vp-mobile) {
+    background-image: url("../img/svg/minus.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    margin-right: 25px;
+  }
+}

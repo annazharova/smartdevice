@@ -1,0 +1,10 @@
+.accordion-title {
+  @media (max-width: $vp-mobile) {
+    cursor: pointer;
+    background-image: url("../img/svg/plus.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    margin-right: 25px;
+  }
+}

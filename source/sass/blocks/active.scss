@@ -1,0 +1,5 @@
+.active {
+  @media (max-width: $vp-mobile) {
+    display: block;
+  }
+}
