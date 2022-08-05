@@ -27,7 +27,7 @@
   @media (max-width: $vp-mobile) {
     background-image: url("../img/intro-background-mobile.webp");
     min-height: 560px;
-    margin-top: -80px;
+    margin-top: -70px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/intro-background-mobile@2x.webp");
@@ -88,7 +88,7 @@
   @media (max-width: $vp-tablet) {
     margin-top: 57px;
     margin-left: 45px;
-    margin: 0;
+    margin-right: 0;
   }
 
   @media (max-width: $vp-mobile) {
