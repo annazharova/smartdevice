@@ -20,6 +20,7 @@
 
   @media (max-width: $vp-mobile) {
     grid-template-columns: 1fr;
+    grid-template-rows: 340px 340px 325px 325px;
   }
 }
 
@@ -68,8 +69,8 @@
   }
 
   @media (max-width: $vp-mobile) {
-    min-height: 340px;
     padding: 30px 30px 30px 25px;
+    min-height: 325px;
   }
 }
 

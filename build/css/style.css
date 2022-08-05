@@ -2030,6 +2030,8 @@ button,
   .advantages__list {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: 340px 340px 325px 325px;
+    grid-template-rows: 340px 340px 325px 325px;
   }
 
   .advantages__img {
@@ -2039,8 +2041,8 @@ button,
   }
 
   .advantages__item {
-    min-height: 340px;
     padding: 30px 30px 30px 25px;
+    min-height: 325px;
   }
 
   .advantages__item h3 {
