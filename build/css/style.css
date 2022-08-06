@@ -1348,7 +1348,7 @@ button,
   min-width: 275px;
 }
 
-.feedback__wrapper label > span {
+.feedback__wrapper span {
   color: #ffffff;
   opacity: 0.8;
   font-size: 14px;
@@ -1874,7 +1874,7 @@ button,
     width: 100%;
   }
 
-  .feedback__wrapper label > span {
+  .feedback__wrapper span {
     padding: 0;
   }
 
