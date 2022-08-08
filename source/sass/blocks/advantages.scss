@@ -18,6 +18,10 @@
   gap: 30px;
   padding: 0 30px;
 
+  @media (max-width: $vp-tablet) {
+    padding: 0;
+  }
+
   @media (max-width: $vp-mobile) {
     grid-template-columns: 1fr;
     grid-template-rows: 340px 340px 325px 325px;

@@ -4,13 +4,22 @@
     margin-left: -25px;
     margin-right: -25px;
     padding-left: 25px;
+    padding-bottom: 5px;
   }
+}
+
+.address .text {
+  margin-bottom: 17px;
 }
 
 .address a {
   color: $transparent-white;
   display: flex;
   height: 34px;
+
+  @media (max-width: $vp-mobile) {
+  height: 30px;
+  }
 
   &:hover,
   &:focus {
