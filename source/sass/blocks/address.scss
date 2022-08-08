@@ -9,9 +9,8 @@
 
 .address a {
   color: $transparent-white;
-  padding: 5px;
   display: flex;
-  margin-left: -5px;
+  height: 34px;
 
   &:hover,
   &:focus {
