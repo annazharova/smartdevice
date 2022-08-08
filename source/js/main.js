@@ -96,8 +96,6 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-
 const consult = document.body.querySelector('.intro .btn');
 const goodsTitle = document.body.querySelector('.goods h2');
 
