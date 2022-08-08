@@ -1612,6 +1612,16 @@ button,
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.custom-checkbox:hover span,
+.custom-checkbox:focus span {
+  color: #515c60;
+}
+
+.custom-checkbox:hover ::before,
+.custom-checkbox:focus ::before {
+  border: 1px solid #515c60;
+}
+
 .email {
   margin-left: 40px;
   margin-top: 12px;
