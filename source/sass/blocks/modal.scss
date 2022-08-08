@@ -39,7 +39,7 @@
   align-items: center;
   width: 100%;
   min-height: 100%;
-  padding: 60px 40px;
+  padding: 145px 40px 60px 15px;
 }
 
 .modal__overlay {
@@ -56,18 +56,24 @@
 .modal__content {
   position: relative;
 
-  min-width: 500px;
+  width: 500px;
   min-height: 610px;
   padding: 40px;
 
+  border-radius: 3px;
   background-color: $base-blue;
   color: $default-white;
 }
 
+.modal__content h2 {
+  font-size: 30px;
+  line-height: 140.62%;
+}
+
 .modal__close-btn {
   position: absolute;
-  top: 22px;
-  right: 22px;
+  top: 17px;
+  right: 17px;
   z-index: 1;
 
   width: 40px;
@@ -113,7 +119,7 @@
 
 .modal p {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .modal form {
@@ -134,8 +140,9 @@
 }
 
 .modal .custom-checkbox {
-  justify-self: center;
   grid-row: 5 / 6;
+  padding-left: 10px;
+  margin-top: -5px;
 }
 
 .modal input[type="checkbox"] {
@@ -153,6 +160,8 @@
   border-radius: 3px;
   border: none;
   padding: 15px;
+  padding-top: 22px;
+  display: flex;
 }
 
 .modal input::placeholder,
@@ -165,7 +174,7 @@
   line-height: 22px;
 }
 
-.modal label > span {
+.modal span {
   color: $base-white;
   opacity: 0.8;
   font-size: 14px;
@@ -187,6 +196,7 @@
   background: #041427;
   border-radius: 3px;
   margin: 0;
+  margin-top: 5px;
 
   &:hover,
   &:focus {
