@@ -1647,10 +1647,6 @@ button,
   background-color: #106082;
 }
 
-.no-js {
-  display: block;
-}
-
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
   &:focus {
@@ -2263,6 +2259,10 @@ button,
     background-position-y: center;
     background-position-x: right;
     margin-right: 25px;
+  }
+
+  .accordion-item .no-js {
+    display: block;
   }
 
   .active {
