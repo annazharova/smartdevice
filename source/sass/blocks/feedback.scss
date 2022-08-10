@@ -86,7 +86,7 @@
 
 .feedback__wrapper form {
   color: $default-white;
-  min-width: 580px;
+  max-width: 580px;
   min-height: 225px;
   display: grid;
   grid-template-columns: min-content min-content;
@@ -227,6 +227,6 @@
 }
 
 .feedback__wrapper .custom-checkbox {
-  margin-top: 5px;
+  // margin-top: 5px;
   padding-left: 5px;
 }

@@ -1,7 +1,7 @@
 .goods {
   background-color: $default-black;
   color: $default-white;
-  margin-top: 98px;
+  margin-top: 100px;
   padding-bottom: 140px;
 
   @media (max-width: $vp-tablet) {
@@ -183,6 +183,7 @@
   background-image: url("../img/svg/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 3px 0 0 0;
 
   &:hover,
   &:focus {

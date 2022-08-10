@@ -1,7 +1,9 @@
 .container {
   width: 100%;
-  max-width: 1222px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
 
   @media (max-width: $vp-tablet) {
     padding-right: 50px;

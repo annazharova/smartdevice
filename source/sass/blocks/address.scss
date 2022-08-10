@@ -9,13 +9,14 @@
 }
 
 .address .text {
-  margin-bottom: 17px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .address a {
   color: $transparent-white;
   display: flex;
-  height: 34px;
+  height: 31px;
 
   @media (max-width: $vp-mobile) {
   height: 30px;

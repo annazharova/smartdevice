@@ -1,18 +1,19 @@
 .phone {
   margin-top: 12px;
-  margin-right: 40px;
+  margin-right: 10px;
 
   @media (max-width: $vp-tablet) {
     margin: 0;
   }
 }
+
 .phone a {
   background-image: url("../img/svg/phone.svg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 0px;
   padding: 10px;
-  padding-left: 40px;
+  padding-left: 35px;
 
   &:hover,
   &:focus {
