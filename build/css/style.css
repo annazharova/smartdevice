@@ -1309,6 +1309,16 @@ button,
   width: fit-content;
 }
 
+.feedback__wrapper input[type="checkbox"]:hover ~ span,
+.feedback__wrapper input[type="checkbox"]:focus ~ span {
+  color: #515c60;
+}
+
+.feedback__wrapper input[type="checkbox"]:hover ~ span::before,
+.feedback__wrapper input[type="checkbox"]:focus ~ span::before {
+  border: 1px solid #515c60;
+}
+
 .feedback__wrapper textarea {
   min-height: 155px;
   width: -webkit-fit-content;
@@ -1652,16 +1662,6 @@ button,
 
 .custom-checkbox > input:disabled + span::before {
   background-color: rgba(255, 255, 255, 0.3);
-}
-
-.custom-checkbox:hover span,
-.custom-checkbox:focus span {
-  color: #515c60;
-}
-
-.custom-checkbox:hover ::before,
-.custom-checkbox:focus ::before {
-  border: 1px solid #515c60;
 }
 
 .email {

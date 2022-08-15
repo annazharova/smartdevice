@@ -121,6 +121,16 @@
   z-index: -1;
   opacity: 0;
   width: fit-content;
+
+  &:hover ~ span,
+  &:focus ~ span {
+    color: $default-hover;
+  }
+
+  &:hover ~ span::before,
+  &:focus ~ span::before {
+    border: 1px solid $default-hover;
+  }
 }
 
 .feedback__wrapper textarea {

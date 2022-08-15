@@ -47,14 +47,14 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.custom-checkbox {
-  &:hover span,
-  &:focus span {
-    color: $default-hover;
-  }
+// .custom-checkbox input {
+//   &:hover span,
+//   &:focus span {
+//     color: $default-hover;
+//   }
 
-  &:hover ::before,
-  &:focus ::before {
-    border: 1px solid $default-hover;
-  }
-}
+//   &:hover ::before,
+//   &:focus ::before {
+//     border: 1px solid $default-hover;
+//   }
+// }
