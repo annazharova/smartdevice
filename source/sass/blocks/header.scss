@@ -21,7 +21,7 @@
 .header__wrapper .container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 
 .header__img {
@@ -43,6 +43,7 @@
   width: 100%;
   max-width: 855px;
   margin: 0;
+  flex-wrap: wrap;
 
   @media (max-width: $vp-tablet) {
     padding: 0;
@@ -69,7 +70,7 @@
   min-width: 160px;
   min-height: 40px;
   border: 1px solid $default-white;
-  background-color: transparent;
+  background-color: $default-black;
   border-radius: 3px;
   box-sizing: border-box;
   text-transform: uppercase;
@@ -79,7 +80,6 @@
   text-align: center;
   letter-spacing: 0.05em;
   padding: 10px 15px;
-  margin-top: 5px;
   margin-right: 60px;
 
   &:hover,
